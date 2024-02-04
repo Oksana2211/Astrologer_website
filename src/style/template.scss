@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300;400;500;600&family=Forum&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300&display=swap');
+
+$fontSans: 'Nunito Sans', sans-serif;
+$fontCormorant: 'Cormorant Infant', serif;
+$fontForum: 'Forum', serif;
+
+@mixin text1 {
+    font-family: $fontSans;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+@mixin text2 {
+    font-family: $fontCormorant;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+@mixin text2 {
+    font-family: $fontForum;
+    font-size: 1.5rem;
+}

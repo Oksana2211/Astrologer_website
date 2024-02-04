@@ -1,4 +1,5 @@
 import React from "react"
+import Menu from "../Menu/Menu"
 // import style from "./style.module.scss"
 
 
@@ -7,7 +8,7 @@ import React from "react"
 export default function Header() {
     return (
         <section >
-
+            <Menu></Menu>
         </section>
     )
 }

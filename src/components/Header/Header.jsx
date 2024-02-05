@@ -1,14 +1,14 @@
 import React from "react"
 import Menu from "../Menu/Menu"
-// import style from "./style.module.scss"
+import style from "./style.module.scss"
 
 
 
 
 export default function Header() {
     return (
-        <section >
+        <header className={style.block}>
             <Menu></Menu>
-        </section>
+        </header>
     )
-}
+} 

@@ -2,24 +2,36 @@
 @import "../../style/template.scss";
 
 .nav {
+    height: 8vh;
+    background-image: url("/img/fon.jpg");
     display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr 1fr 0.6fr 0.3fr 0.2fr;
+    align-items: center;
+    justify-items: center;
 }
 
-.item {
-    text-decoration: none;
-    grid-template-columns: 1fr 1fr 1fr;
+.logo {
+    padding-top: 3%;
+    width: 13vw;
 }
 
-@media (min-width: 600px) and (max-width: 1023px) {
+.nav__item {
+    color: $color2;
+    @include text1;
+}
+
+.nav__item:hover {
+    cursor: pointer;
+    padding-bottom: 2%;
+
+}
+
+@media (min-width: 650px) and (max-width: 1050px) {
     /* CSS-стили Tablet*/
 
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 549px) {
     /* CSS-стили Smartphone*/
 
 }
-
-// .item:active {
-//     color: $color-red;
-// }

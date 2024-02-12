@@ -3,20 +3,32 @@
 
 
 .block {
+    width: auto;
     height: 90vh;
     background-image: url('/img/photo.jpg');
 }
 
 
-@media (min-width: 650px) and (max-width: 1023px) {
+@media (min-width: 650px) and (max-width: 1050px) {
 
     /* CSS-стили Tablet*/
+    .block {
+
+        background-image: url('/img/photo.jpg');
+    }
+}
+
+@media (min-width: 380px) and (max-width: 649px) {
+
+    /* CSS-стили Smartphone*/
+
 
 
 }
 
-@media screen and (max-width: 649px) {
+@media screen and (max-width: 379px) {
 
     /* CSS-стили Smartphone*/
+
 
 }

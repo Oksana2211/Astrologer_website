@@ -3,7 +3,21 @@
 
 .navSmartphone {
     background-image: url("/img/fonGif.gif");
+    -webkit-box-shadow: 0px 11px 14px -2px rgba(4, 6, 8, 0.5);
+    -moz-box-shadow: 0px 11px 14px -2px rgba(4, 6, 8, 0.5);
+    box-shadow: 0px 11px 14px -2px rgba(4, 6, 8, 0.5);
     display: none;
+    height: 8vh;
+}
+
+.navSmartphone__iconNav {
+    background-color: rgba(120, 131, 147, 0.5)
+}
+
+.navSmartphone__item {
+    padding-left: 5%;
+    color: $color2;
+    @include text1;
 }
 
 .nav {
@@ -39,27 +53,58 @@
 @media (min-width: 650px) and (max-width: 1050px) {
 
     /* CSS-стили Tablet*/
+    .navSmartphone {
+        display: block;
+        height: 9vh;
+
+    }
+
     .nav {
         display: none;
     }
 
+    .nav__logo {
+        width: 16vw;
+    }
+}
 
+@media (min-width: 380px) and (max-width: 649px) {
+
+    /* CSS-стили Smartphone*/
     .navSmartphone {
         display: block;
+        height: 8vh;
 
     }
+
+    .nav {
+        display: none;
+    }
+
+    .nav__logo {
+        padding-top: 0;
+        width: 23vw;
+    }
+
 
 }
 
-@media screen and (max-width: 649px) {
+@media screen and (max-width: 379px) {
 
     /* CSS-стили Smartphone*/
+    .navSmartphone {
+        display: block;
+        height: 8.5vh;
+
+    }
+
     .nav {
         display: none;
     }
 
-    .navSmartphone {
-        display: block;
+    .nav__logo {
+        padding-top: 0;
+        width: 29vw;
     }
 
 }

@@ -24,55 +24,42 @@ export default function Menu() {
         <a href="#" className={style.nav__item}>Прогностика</a>
         <a href="#" className={style.nav__item}>Таро</a>
       </nav>
-
-
-
-
-
-
-
       <div className={style.navSmartphone}>
-        <nav class="navbar navbar-dark ">
+        <nav class="navbar navbar-dark">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <svg className={style.nav__logo} width="211" height="40" viewBox="0 0 211 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.6875 39V1.5H38.1875V5.40625H5.375V17.9062H36.625V21.8125H5.375V35.0938H38.1875V39H0.6875ZM49.125 39H44.4375V1.5H52.665L87.04 34.3125V1.5H91.7275V39H85.4775L49.125 5.40625V39ZM124.76 17.9062C127.331 17.9062 129.537 18.012 131.376 18.2236C133.215 18.4352 134.761 18.7526 136.015 19.1758C137.284 19.5827 138.293 20.0954 139.042 20.7139C139.791 21.3324 140.368 22.0404 140.775 22.8379C141.182 23.6191 141.443 24.498 141.557 25.4746C141.687 26.4512 141.752 27.5091 141.752 28.6484C141.752 29.7878 141.646 30.862 141.435 31.8711C141.239 32.8639 140.881 33.7754 140.36 34.6055C139.84 35.4355 139.132 36.1761 138.236 36.8271C137.341 37.4782 136.202 38.0316 134.818 38.4873C133.435 38.943 131.767 39.2848 129.813 39.5127C127.877 39.7568 125.606 39.8789 123.002 39.8789H116.752C114.408 39.8789 112.357 39.7894 110.6 39.6104C108.842 39.4313 107.328 39.1628 106.059 38.8047C104.789 38.4303 103.739 37.9665 102.909 37.4131C102.079 36.8434 101.412 36.1842 100.907 35.4355C100.419 34.6706 100.077 33.8079 99.8818 32.8477C99.6865 31.8711 99.5889 30.7969 99.5889 29.625H104.276C104.276 31.0898 104.488 32.2373 104.911 33.0674C105.334 33.8975 106.034 34.5241 107.011 34.9473C107.987 35.3542 109.265 35.6146 110.844 35.7285C112.439 35.8262 114.408 35.875 116.752 35.875H123.002C125.736 35.875 128.007 35.7448 129.813 35.4844C131.62 35.224 133.061 34.8089 134.135 34.2393C135.209 33.6696 135.966 32.929 136.405 32.0176C136.845 31.0898 137.064 29.9668 137.064 28.6484C137.064 27.3301 136.91 26.2314 136.601 25.3525C136.308 24.4736 135.714 23.7738 134.818 23.2529C133.939 22.7321 132.694 22.3659 131.083 22.1543C129.472 21.9264 127.364 21.8125 124.76 21.8125H118.314C115.45 21.8125 112.992 21.7067 110.941 21.4951C108.907 21.2835 107.198 20.9824 105.814 20.5918C104.431 20.1849 103.324 19.6885 102.494 19.1025C101.664 18.5003 101.029 17.8167 100.59 17.0518C100.167 16.2868 99.89 15.4404 99.7598 14.5127C99.6296 13.5687 99.5645 12.5514 99.5645 11.4609C99.5645 10.3216 99.6621 9.26367 99.8574 8.28711C100.069 7.31055 100.451 6.43164 101.005 5.65039C101.558 4.85286 102.315 4.14486 103.275 3.52637C104.236 2.90788 105.465 2.39518 106.962 1.98828C108.476 1.5651 110.29 1.24772 112.406 1.03613C114.522 0.824544 117.012 0.71875 119.877 0.71875H124.564C126.908 0.71875 128.959 0.808268 130.717 0.987305C132.475 1.15007 133.988 1.41862 135.258 1.79297C136.527 2.15104 137.577 2.60677 138.407 3.16016C139.254 3.69727 139.921 4.34831 140.409 5.11328C140.914 5.86198 141.264 6.71647 141.459 7.67676C141.654 8.63704 141.752 9.70312 141.752 10.875H137.064C137.064 9.41016 136.853 8.2627 136.43 7.43262C136.007 6.60254 135.307 5.98405 134.33 5.57715C133.354 5.15397 132.068 4.89355 130.473 4.7959C128.878 4.68197 126.908 4.625 124.564 4.625H119.877C116.752 4.625 114.18 4.73893 112.162 4.9668C110.144 5.17839 108.549 5.5446 107.377 6.06543C106.205 6.58626 105.391 7.28613 104.936 8.16504C104.48 9.04395 104.252 10.1426 104.252 11.4609C104.252 12.2747 104.309 12.999 104.423 13.6338C104.537 14.2686 104.765 14.8301 105.106 15.3184C105.465 15.7904 105.961 16.1891 106.596 16.5146C107.23 16.8402 108.069 17.1087 109.11 17.3203C110.152 17.5319 111.422 17.6865 112.919 17.7842C114.433 17.8656 116.231 17.9062 118.314 17.9062H124.76ZM149.564 1.5H154.252V39H149.564V1.5ZM200.346 30.4062H170.658L165.971 39H160.502L182.377 1.5H188.627L210.502 39H205.033L200.346 30.4062ZM198.002 26.5L185.502 4.625L173.002 26.5H198.002Z" fill="white" />
               </svg>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            <div className={style.navSmartphone__iconNav}><button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" ></span>
+            </button></div>
             <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
               <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
               <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <li className={style.navSmartphone__item} class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Об Ensia</a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                  <li className={style.navSmartphone__item} class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Цена</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-dark">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li>
-                        <hr class="dropdown-divider"></hr>
-                      </li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                  <li className={style.navSmartphone__item} class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Контакты</a>
+                  </li>
+                  <li className={style.navSmartphone__item} class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Натальная карта</a>
+                  </li>
+                  <li className={style.navSmartphone__item} class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Прогностика</a>
+                  </li>
+                  <li className={style.navSmartphone__item} class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Таро</a>
                   </li>
                 </ul>
-                <form class="d-flex mt-3" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-                  <button class="btn btn-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </div>

@@ -12,11 +12,12 @@ $fontForum: 'Forum', serif;
 
 @mixin text2 {
     font-family: $fontCormorant;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 300;
+    font-size: 3rem;
+    text-align: center;
 }
 
-@mixin text2 {
+@mixin text3 {
     font-family: $fontForum;
     font-size: 1.5rem;
 }

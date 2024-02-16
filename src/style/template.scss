@@ -19,5 +19,29 @@ $fontForum: 'Forum', serif;
 
 @mixin text3 {
     font-family: $fontForum;
+    font-size: 1.8rem;
+}
+
+@mixin text2_Tablet {
+    font-family: $fontCormorant;
+    font-weight: 300;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+@mixin text3_Tablet {
+    font-family: $fontForum;
     font-size: 1.5rem;
+}
+
+@mixin text2_Smartphone {
+    font-family: $fontCormorant;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+}
+
+@mixin text3_Smartphone {
+    font-family: $fontForum;
+    font-size: 1.4rem;
 }

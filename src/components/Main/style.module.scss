@@ -4,6 +4,7 @@
 .container {
     min-height: 50vh;
     background-image: url('/img/fon.jpg');
+    padding-bottom: 7%;
 }
 
 .content {
@@ -40,7 +41,6 @@
 }
 
 .container__cards {
-    margin-top: 5%;
     min-height: 50vh;
     background-color: rgba(41, 43, 54, 0.7);
     display: grid;
@@ -48,6 +48,7 @@
     justify-items: center;
     align-items: center;
     padding: 0 5% 0 5%;
+    margin-top: 5%;
 }
 
 .container__cards_item {

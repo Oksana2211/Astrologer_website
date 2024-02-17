@@ -22,6 +22,12 @@ $fontForum: 'Forum', serif;
     font-size: 1.8rem;
 }
 
+@mixin text4 {
+    font-family: $fontSans;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
 @mixin text2_Tablet {
     font-family: $fontCormorant;
     font-weight: 300;

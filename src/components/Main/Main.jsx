@@ -1,9 +1,9 @@
 import React from "react"
 import style from "./style.module.scss"
 import wing from "../../img/wing.png"
-// import card1 from "../../img/Прогностика.svg"
-// import card2 from "../../img/Натальная карта.jpg"
-// import card3 from "../../img/Таро.jpg"
+import prognostication from '../../img/Прогностика.png'
+import natalChart from '../../img/Натальная карта.png'
+import tarot from "../../img/Таро.png"
 
 
 
@@ -30,7 +30,9 @@ export default function Main() {
             </div>
 
             <div className={style.container__cards}>
-
+                <img className={style.container__cards_item} src={prognostication} alt="Раздел прогностика" />
+                <img className={style.container__cards_item} src={natalChart} alt="Раздел прогностика" />
+                <img className={style.container__cards_item} src={tarot} alt="Раздел прогностика" />
             </div>
 
         </section>

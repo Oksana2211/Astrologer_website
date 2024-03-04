@@ -1,14 +1,173 @@
 @import "../../style/variables.scss";
 @import "../../style/template.scss";
 
+.container {
+    min-height: 50vh;
+    background-image: url('/img/fon.jpg');
+    padding-bottom: 7%;
+}
 
-
-@media (min-width: 600px) and (max-width: 1023px) {
-    /* CSS-стили Tablet*/
+.content {
+    padding: 0 7% 0 7%;
 
 }
 
-@media screen and (max-width: 599px) {
+.content__header {
+    color: $color2;
+    @include text2;
+    padding: 2% 0 2% 0;
+    margin: 0;
+
+}
+
+.content__columnText {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3vw;
+}
+
+.content__text {
+    color: $color2;
+    margin: 0;
+    @include text3;
+    -webkit-box-shadow: 1px 11px 23px -5px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 1px 11px 23px -5px rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 11px 23px -5px rgba(0, 0, 0, 0.6);
+}
+
+.content__text_wing {
+    display: none;
+    width: 5vw;
+}
+
+.container__cards {
+    min-height: 50vh;
+    background-color: rgba(41, 43, 54, 0.7);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding: 0 5% 0 5%;
+    margin-top: 5%;
+}
+
+.container__cards_item {
+    width: 19vw;
+    transition: 1s;
+}
+
+.container__cards_item:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+    overflow: hidden;
+}
+
+@media (min-width: 650px) and (max-width: 1050px) {
+
+    /* CSS-стили Tablet*/
+    .content__header {
+        @include text2_Tablet;
+    }
+
+    .content__text {
+        @include text3_Tablet;
+    }
+
+    .content__columnText {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0;
+
+    }
+
+    .content__text_wing {
+        display: inline-block;
+    }
+
+    .container__cards {
+        min-height: 45vh;
+    }
+
+    .container__cards_item {
+        width: 23vw;
+    }
+
+}
+
+@media (min-width: 380px) and (max-width: 649px) {
+
     /* CSS-стили Smartphone*/
+    .content__header {
+        @include text2_Smartphone;
+    }
+
+    .content__text {
+        @include text3_Smartphone;
+    }
+
+    .content__columnText {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0;
+    }
+
+    .content__text_wing {
+        display: inline-block;
+        width: 7vw;
+    }
+
+    .container__cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 0;
+    }
+
+    .container__cards_item {
+        width: 35vw;
+        margin: 5vw 0 5vw 0;
+    }
+
+}
+
+
+
+@media screen and (max-width: 379px) {
+
+    /* CSS-стили Smartphone*/
+    .content__header {
+        @include text2_Smartphone;
+    }
+
+    .content__text {
+        @include text3_Smartphone;
+    }
+
+    .content__columnText {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0;
+    }
+
+    .content__text_wing {
+        display: inline-block;
+    }
+
+    .content__text_wing {
+        display: inline-block;
+        width: 7vw;
+    }
+
+    .container__cards {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 0;
+    }
+
+    .container__cards_item {
+        width: 55vw;
+        margin: 5vw 0 5vw 0;
+    }
+
 
 }

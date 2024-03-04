@@ -1,6 +1,5 @@
+import Home from './Home/Home';
+import Error from './Error/Error';
 
-// import Home from './Home/Home';
-// import Error from './Error/Error';
 
-
-// export { Home, Error }
+export { Home, Error }

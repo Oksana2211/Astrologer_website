@@ -5,7 +5,7 @@ import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 // import style from '../../style/App.scss';
-import { Home, Error } from '../../pages'
+import { Home, Error, Prognostics, Tarot, NatalChart, Prices } from '../../pages'
 
 
 
@@ -24,7 +24,10 @@ function App() {
                 <Main />
                 <Routes>
                     <Route path="/" element={<Home />} />
-
+                    <Route path="/prognostics" element={<Prognostics />} />
+                    <Route path="/tarot" element={<Tarot />} />
+                    <Route path="/natalchart" element={<NatalChart />} />
+                    <Route path="/prices" element={<Prices />} />
                     <Route path="*" element={<Error />} />
                 </Routes>
                 <Footer />

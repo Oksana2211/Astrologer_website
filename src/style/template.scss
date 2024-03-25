@@ -43,11 +43,11 @@ $fontForum: 'Forum', serif;
 @mixin text2_Smartphone {
     font-family: $fontCormorant;
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 1.9rem;
     text-align: center;
 }
 
 @mixin text3_Smartphone {
     font-family: $fontForum;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }

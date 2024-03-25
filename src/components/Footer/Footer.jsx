@@ -4,7 +4,7 @@ import vector from "../../img/Vector.png"
 
 export default function Footer() {
     return (
-        <footer className={style.footer}>
+        <footer id="contacts" className={style.footer}>
             <img className={style.footer__vector} src={vector} alt="вектор" />
             <p className={style.footer__contacts}>Контактная информация</p>
         </footer>

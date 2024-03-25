@@ -15,7 +15,7 @@
 .content__header {
     color: $color2;
     @include text2;
-    padding: 2% 0 2% 0;
+    padding: 5% 0 2% 0;
     margin: 0;
 
 }
@@ -63,6 +63,11 @@
     overflow: hidden;
 }
 
+.photo {
+    width: 98.9vw;
+
+}
+
 @media (min-width: 650px) and (max-width: 1050px) {
 
     /* CSS-стили Tablet*/
@@ -77,7 +82,7 @@
     .content__columnText {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 0;
+        gap: 3%;
 
     }
 
@@ -109,12 +114,12 @@
     .content__columnText {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        gap: 0;
+        gap: 3%;
     }
 
     .content__text_wing {
         display: inline-block;
-        width: 7vw;
+        width: 8vw;
     }
 
     .container__cards {

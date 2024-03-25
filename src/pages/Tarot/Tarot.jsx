@@ -5,7 +5,7 @@ import React from 'react';
 export default function Tarot() {
     return (
         <div>
-
+            <h1>Раздел Таро</h1>
         </div>
 
     )

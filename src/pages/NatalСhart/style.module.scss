@@ -1,14 +1,28 @@
 @import "../../style/variables.scss";
 @import "../../style//template.scss";
 
+.block {
+    background-image: url('/img/fon.jpg');
+    padding: 3vw 0 3vw 0;
 
+}
+
+.cards {
+    padding-left: 15%;
+}
+
+.card {
+    width: 50vw;
+    // padding-left: 35vw;
+}
 
 @media (min-width: 600px) and (max-width: 1023px) {
+
     /* CSS-стили Tablet*/
 
 }
 
 @media screen and (max-width: 599px) {
-    /* CSS-стили Smartphone*/
 
+    /* CSS-стили Smartphone*/
 }

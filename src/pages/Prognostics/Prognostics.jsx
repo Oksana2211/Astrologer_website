@@ -5,6 +5,7 @@ import React from 'react';
 export default function Prognostics() {
     return (
         <div>
+            <h1>Раздел Прогностика</h1>
         </div>
 
     )

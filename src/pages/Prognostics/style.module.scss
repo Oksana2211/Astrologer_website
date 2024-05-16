@@ -2,13 +2,87 @@
 @import "../../style//template.scss";
 
 
+.content {
+    padding: 0 7% 0 7%;
+
+}
+
+.conteuner {
+    background-image: url('/img/fon.jpg');
+}
+
+.conteuner__icon {
+    width: 23vw;
+    position: absolute;
+    opacity: 0.7;
+    top: 3.5vw;
+    left: 5vw;
+}
+
+.conteuner__text {
+    background-color: $color3;
+    color: $color2;
+    padding: 5vw 15vw 5vw 15vw;
+}
+
+.conteuner__text_header {
+    @include text2;
+}
+
+.conteuner__text_content {
+    @include text3;
+}
+
+.conteuner__card {
+    box-sizing: content-box;
+    width: 28vw;
+    padding: 5vw 36vw 5vw 36vw;
+
+}
 
 @media (min-width: 600px) and (max-width: 1023px) {
+
     /* CSS-стили Tablet*/
+    .conteuner__icon {
+        width: 27vw;
+        top: 7vw;
+        left: 5vw;
+    }
+
+    .conteuner__card {
+        width: 35vw;
+        padding: 5vw 32.5vw 5vw 32.5vw;
+    }
+
+    .conteuner__text_header {
+        @include text2_Tablet;
+    }
+
+    .conteuner__text_content {
+        @include text3_Tablet;
+    }
 
 }
 
 @media screen and (max-width: 599px) {
-    /* CSS-стили Smartphone*/
 
+    /* CSS-стили Smartphone*/
+    .conteuner__icon {
+        width: 40vw;
+        top: 15vw;
+        left: 1vw;
+    }
+
+    .conteuner__card {
+        width: 60vw;
+        padding: 5vw 20vw 5vw 20vw;
+    }
+
+    .conteuner__text_header {
+        @include text2_Smartphone;
+    }
+
+    .conteuner__text_content {
+        @include text3_Smartphone;
+    }
 }

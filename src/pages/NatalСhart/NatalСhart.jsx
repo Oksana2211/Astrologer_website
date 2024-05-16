@@ -15,7 +15,7 @@ export default function NatalChart() {
             <div className={style.conteuner__text}>
                 <img className={style.conteuner__icon} src={horoscope} alt='Иконка гороскоп'></img>
                 <h1 className={style.conteuner__text_header}>Разбор Натальной карты</h1>
-                <p className={style.conteuner__text_content}>Натальная карта (НК) – это снимок неба на момент нашего рождения, то есть, где располагались планеты и как взаимодействовали меж дусобой.</p>
+                <p className={style.conteuner__text_content}>Натальная карта (НК) – это снимок неба на момент нашего рождения, то есть, где располагались планеты и как взаимодействовали между собой.</p>
             </div>
             <div>
                 <div id="carouselExample" class="carousel slide">
